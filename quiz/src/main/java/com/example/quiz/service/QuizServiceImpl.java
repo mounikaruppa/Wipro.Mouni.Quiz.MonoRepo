@@ -1,4 +1,4 @@
-package com.example.quiz.service;
+package com.example.wipro.mouni.quiz.service;
 
 import com.example.quiz.entity.Question;
 import com.example.quiz.entity.QuestionWrapper;
@@ -20,7 +20,6 @@ public class QuizServiceImpl implements QuizService {
     private final QuizRepository quizRepository;
     private final QuestionRepository questionRepository;
 
-    // Manual constructor (no Lombok)
     public QuizServiceImpl(QuizRepository quizRepository, QuestionRepository questionRepository) {
         this.quizRepository = quizRepository;
         this.questionRepository = questionRepository;
@@ -91,3 +90,4 @@ public class QuizServiceImpl implements QuizService {
         return score;
     }
 }
+
