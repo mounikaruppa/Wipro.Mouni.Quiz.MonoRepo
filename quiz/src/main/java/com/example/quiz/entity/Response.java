@@ -1,7 +1,6 @@
-package com.example.quiz.entity;
+package com.example.wipro.mouni.quiz.entity;
 
 public class Response {
-
     private Long questionId;
     private String response;
 
@@ -9,7 +8,6 @@ public class Response {
     public Response() {
     }
 
-    // Parameterized constructor
     public Response(Long questionId, String response) {
         this.questionId = questionId;
         this.response = response;
@@ -33,3 +31,4 @@ public class Response {
         this.response = response;
     }
 }
+
