@@ -1,4 +1,4 @@
-package com.example.quiz.entity;
+package com.example.wipro.mouni.quiz.entity;
 
 public class QuestionWrapper {
     private Long id;
@@ -8,11 +8,8 @@ public class QuestionWrapper {
     private String option3;
     private String option4;
 
-    // Default constructor (needed for frameworks like Jackson)
     public QuestionWrapper() {
     }
-
-    // Parameterized constructor
     public QuestionWrapper(Long id, String questionTitle, String option1, String option2, String option3, String option4) {
         this.id = id;
         this.questionTitle = questionTitle;
@@ -22,7 +19,6 @@ public class QuestionWrapper {
         this.option4 = option4;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
@@ -71,3 +67,4 @@ public class QuestionWrapper {
         this.option4 = option4;
     }
 }
+
