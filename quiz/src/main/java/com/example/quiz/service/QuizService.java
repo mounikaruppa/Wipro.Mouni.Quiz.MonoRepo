@@ -1,4 +1,4 @@
-package com.example.quiz.service;
+package com.example.wipro.mouni.quiz.service;
 
 import com.example.quiz.entity.QuestionWrapper;
 import com.example.quiz.entity.Response;
@@ -20,3 +20,4 @@ public interface QuizService {
 
     int submitQuiz(Long quizId, List<Response> responses);
 }
+
