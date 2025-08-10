@@ -1,4 +1,4 @@
-package com.example.quiz.aop;
+package com.example.wipro.mouni.quiz.entity;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
@@ -20,3 +20,4 @@ public class Logging {
         log.info("Logging something before addUser endpoint");
     }
 }
+
