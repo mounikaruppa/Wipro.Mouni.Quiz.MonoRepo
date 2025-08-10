@@ -1,4 +1,4 @@
-package com.example.quiz;
+package com.example.wipro.mouni.quiz;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
