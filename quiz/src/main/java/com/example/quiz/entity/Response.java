@@ -4,7 +4,6 @@ public class Response {
     private Long questionId;
     private String response;
 
-    // Default constructor
     public Response() {
     }
 
@@ -31,4 +30,5 @@ public class Response {
         this.response = response;
     }
 }
+
 
