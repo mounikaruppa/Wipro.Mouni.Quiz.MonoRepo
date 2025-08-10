@@ -1,4 +1,4 @@
-package com.example.quiz.controller;
+package com.example.wipro.mouni.quiz.entity;
 
 import com.example.quiz.entity.Question;
 import com.example.quiz.service.QuestionService;
@@ -70,3 +70,4 @@ public class QuestionController {
         return ResponseEntity.ok(questions);
     }
 }
+
