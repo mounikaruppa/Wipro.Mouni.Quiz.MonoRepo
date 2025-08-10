@@ -1,8 +1,7 @@
-package com.example.quiz.entity;
+package com.example.wipro.mouni.quiz.entity;
 
 import com.example.quiz.entity.enums.Category;
 import com.example.quiz.entity.enums.DifficultyLevel;
-
 import jakarta.persistence.*;
 
 @Entity
@@ -18,18 +17,13 @@ public class Question {
     private String option2;
     private String option3;
     private String option4;
-
     private String correctAnswer;
 
     @Enumerated(EnumType.STRING)
     private DifficultyLevel difficultyLevel;
-
     @Enumerated(EnumType.STRING)
     private Category category;
-
     public Question() {}
-
-    // Getters
     public Long getId() {
         return id;
     }
@@ -66,7 +60,6 @@ public class Question {
         return category;
     }
 
-    // Setters
     public void setId(Long id) {
         this.id = id;
     }
@@ -103,3 +96,4 @@ public class Question {
         this.category = category;
     }
 }
+
