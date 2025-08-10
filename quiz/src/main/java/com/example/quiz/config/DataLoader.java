@@ -1,4 +1,4 @@
-package com.example.wipro.mouni.quiz.entity;
+package com.example.wipro.mouni.quiz.config;
 import java.util.Arrays;
 
 import org.springframework.boot.CommandLineRunner;
@@ -55,4 +55,5 @@ public class DataLoader implements CommandLineRunner {
         }
     }
 }
+
 
