@@ -1,4 +1,4 @@
-package com.example.quiz.entity;
+package com.example.wipro.mouni.quiz.entity;
 
 import jakarta.persistence.*;
 import java.util.List;
@@ -21,9 +21,7 @@ public class Quiz {
         inverseJoinColumns = @JoinColumn(name = "question_id")
     )
     private List<Question> questions;
-
-    // ======= Getters and Setters =======
-
+    
     public Long getQuizId() {
         return quizId;
     }
@@ -48,3 +46,4 @@ public class Quiz {
         this.questions = questions;
     }
 }
+
