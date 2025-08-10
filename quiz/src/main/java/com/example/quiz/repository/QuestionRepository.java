@@ -1,4 +1,4 @@
-package com.example.quiz.repository;
+package com.example.wipro.mouni.quiz.repository;
 
 import com.example.quiz.entity.Question;
 import com.example.quiz.entity.enums.Category;
@@ -15,3 +15,4 @@ public interface QuestionRepository extends JpaRepository<Question, Long> {
 	List<Question> findByDifficultyLevel(String difficulty);
 	List<Question> findByCategoryAndDifficultyLevel(String category, String difficulty);
 }
+
