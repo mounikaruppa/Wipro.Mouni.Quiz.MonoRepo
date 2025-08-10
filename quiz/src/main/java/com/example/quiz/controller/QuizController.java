@@ -1,4 +1,4 @@
-package com.example.wipro.mouni.quiz.entity;
+package com.example.wipro.mouni.quiz.controller;
 
 import com.example.quiz.entity.QuestionWrapper;
 import com.example.quiz.entity.Response;
@@ -48,4 +48,5 @@ public class QuizController {
         return ResponseEntity.ok(Map.of("score", score));
     }
 }
+
 
