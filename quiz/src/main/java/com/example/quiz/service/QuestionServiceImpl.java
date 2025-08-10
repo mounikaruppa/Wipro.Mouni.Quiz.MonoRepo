@@ -1,4 +1,4 @@
-package com.example.quiz.service;
+package com.example.wipro.mouni.quiz.service;
 import com.example.quiz.entity.Question;
 import com.example.quiz.repository.QuestionRepository;
 import com.example.quiz.service.QuestionService;
@@ -69,3 +69,4 @@ public class QuestionServiceImpl implements QuestionService {
     }
 
 }
+
